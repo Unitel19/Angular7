@@ -27,9 +27,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/animations.css",
+              "src/instaslide.css",
+              "src/lightbox.css",
+              "src/jquery.simplyscroll.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+               
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/custom.js",
+              "src/assets/js/instafeed.min.js",
+              "src/assets/js/jquery-1.11.3.min.js",
+              "src/assets/js/jquery.scrollTo.js",
+              "src/assets/js/jquery.scrollTo.min.js",
+              "src/assets/js/jquery.simplyscroll.js",
+              "src/assets/js/lightbox.js"
+              
+            ]
           },
           "configurations": {
             "production": {
