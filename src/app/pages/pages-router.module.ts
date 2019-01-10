@@ -1,5 +1,5 @@
 import { RouterModule, Routes } from '@angular/router';
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
@@ -21,6 +21,15 @@ const routes: Routes = [{
     {
       path: 'contact',
       component : ContactComponent
+    },
+    {
+      path: '',
+      redirectTo: 'home',
+      pathMatch: 'full'
+    },
+    {
+      path: '**',
+      redirectTo: 'home'
     }
   ]
 }]
@@ -30,3 +39,9 @@ const routes: Routes = [{
 })
 export class PagesRoutingModule {
 }
+export const routedComponents = [
+  HomeComponent,
+  MusicComponent,
+  ContactComponent,
+  PagesComponent
+]
