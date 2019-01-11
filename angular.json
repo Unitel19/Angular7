@@ -25,13 +25,32 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
+              
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/assets/css/style.css",
+              "src/assets/css/animations.css",
+              "src/assets/css/instaslide.css",
+              "src/assets/css/lightbox.css",
+              "src/assets/css/jquery.simplyscroll.css"
+              
+              
                
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/instafeed.min.js",
+              "src/assets/js/jquery-1.11.3.min.js",
+              "src/assets/js/jquery.scrollTo.js",
+              "src/assets/js/jquery.scrollTo.min.js",
+              "src/assets/js/jquery.simplyscroll.js",
+              "src/assets/js/jquery.simplyscroll.min.js",
+              "src/assets/js/lightbox.js"
+              
+            ]
           },
           "configurations": {
             "production": {
